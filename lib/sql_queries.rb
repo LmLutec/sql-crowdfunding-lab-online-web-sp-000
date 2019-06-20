@@ -50,5 +50,6 @@ end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category
 "SELECT category, SUM(amount)
-FROM "
+FROM Projects
+JOIN Pledges"
 end
